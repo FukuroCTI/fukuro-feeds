@@ -1,0 +1,52 @@
+{
+  "Event": {
+    "uuid": "a738224d-6583-5c52-a54a-5fd688d8e708",
+    "info": "Phishing lure impersonating Touch 'n Go, from a QR code",
+    "date": "2026-09-22",
+    "threat_level_id": "2",
+    "analysis": "2",
+    "published": true,
+    "publish_timestamp": "1790035200",
+    "timestamp": "1790035200",
+    "protected": false,
+    "extends_uuid": "",
+    "Orgc": {
+      "name": "FukuroCTI",
+      "uuid": "bf364d75-c3d3-578b-a3d1-d851af3f9a90"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "local": false,
+        "name": "tlp:clear",
+        "relationship_type": ""
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "ac035dd1-cce0-5196-8dbc-86d41f27d3ea",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "tng.jkmss-a.sbs",
+        "comment": "Phishing lure impersonating Touch 'n Go, from a QR code",
+        "to_ids": true,
+        "disable_correlation": false,
+        "timestamp": "1790035200",
+        "first_seen": "2026-09-22T00:00:00+00:00",
+        "last_seen": "2026-09-22T00:00:00+00:00"
+      },
+      {
+        "uuid": "20c9def9-d1dd-54b5-ad8e-02fbc573b4a2",
+        "type": "url",
+        "category": "Network activity",
+        "value": "https://tng.jkmss-a.sbs/Rayamacam2.my7/",
+        "comment": "Phishing lure impersonating Touch 'n Go, from a QR code",
+        "to_ids": true,
+        "disable_correlation": false,
+        "timestamp": "1790035200",
+        "first_seen": "2026-09-22T00:00:00+00:00",
+        "last_seen": "2026-09-22T00:00:00+00:00"
+      }
+    ]
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "type": "bundle",
+  "id": "bundle--558e610e-2198-5dc0-a7dd-4042b6ae100d",
+  "objects": [
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--d9938b23-4e15-5d59-94ec-aaca6a31d550",
+      "created": "2026-09-22T00:00:00.000Z",
+      "modified": "2026-09-22T00:00:00.000Z",
+      "name": "FukuroCTI",
+      "identity_class": "individual"
+    },
+    {
+      "type": "marking-definition",
+      "spec_version": "2.1",
+      "id": "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9",
+      "created": "2017-01-20T00:00:00.000Z",
+      "definition_type": "tlp",
+      "name": "TLP:WHITE",
+      "definition": {
+        "tlp": "white"
+      }
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--4328b2be-f505-5081-aa64-bdc900ae653e",
+      "created": "2026-09-22T00:00:00.000Z",
+      "modified": "2026-09-22T00:00:00.000Z",
+      "created_by_ref": "identity--d9938b23-4e15-5d59-94ec-aaca6a31d550",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "name": "Phishing: Spearphishing Link",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.002",
+          "url": "https://attack.mitre.org/techniques/T1566/002/"
+        }
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "initial-access"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--497132f3-9146-5c0a-b0ce-33c38a8538d7",
+      "created": "2026-09-22T00:00:00.000Z",
+      "modified": "2026-09-22T00:00:00.000Z",
+      "created_by_ref": "identity--d9938b23-4e15-5d59-94ec-aaca6a31d550",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "name": "Phishing for Information: Spearphishing Link",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1598.003",
+          "url": "https://attack.mitre.org/techniques/T1598/003/"
+        }
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--50f44006-0871-597c-a7be-0c78c507e80a",
+      "created": "2026-09-22T00:00:00.000Z",
+      "modified": "2026-09-22T00:00:00.000Z",
+      "created_by_ref": "identity--d9938b23-4e15-5d59-94ec-aaca6a31d550",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "name": "Acquire Infrastructure: Domains",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1583.001",
+          "url": "https://attack.mitre.org/techniques/T1583/001/"
+        }
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "resource-development"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--27c808b6-efbd-5847-bd13-1f6b77ba145e",
+      "created": "2026-09-22T00:00:00.000Z",
+      "modified": "2026-09-22T00:00:00.000Z",
+      "created_by_ref": "identity--d9938b23-4e15-5d59-94ec-aaca6a31d550",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "name": "domain: tng.jkmss-a.sbs",
+      "description": "Phishing lure impersonating Touch 'n Go, from a QR code",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[domain-name:value = 'tng.jkmss-a.sbs']",
+      "pattern_type": "stix",
+      "valid_from": "2026-09-22T00:00:00.000Z",
+      "valid_until": "2026-12-21T00:00:00.000Z",
+      "confidence": 85,
+      "labels": [
+        "tlp:clear",
+        "lure-domain"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--2e6a3e5c-2abe-5c59-bb0e-6edab1742a41",
+      "created": "2026-09-22T00:00:00.000Z",
+      "modified": "2026-09-22T00:00:00.000Z",
+      "created_by_ref": "identity--d9938b23-4e15-5d59-94ec-aaca6a31d550",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "name": "url: https://tng.jkmss-a.sbs/Rayamacam2.my7/",
+      "description": "Phishing lure impersonating Touch 'n Go, from a QR code",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "pattern": "[url:value = 'https://tng.jkmss-a.sbs/Rayamacam2.my7/']",
+      "pattern_type": "stix",
+      "valid_from": "2026-09-22T00:00:00.000Z",
+      "valid_until": "2026-10-22T00:00:00.000Z",
+      "confidence": 85,
+      "labels": [
+        "tlp:clear"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--277536f5-529b-529e-ab0b-78ecc530f1ce",
+      "created": "2026-09-22T00:00:00.000Z",
+      "modified": "2026-09-22T00:00:00.000Z",
+      "created_by_ref": "identity--d9938b23-4e15-5d59-94ec-aaca6a31d550",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "relationship_type": "indicates",
+      "source_ref": "indicator--2e6a3e5c-2abe-5c59-bb0e-6edab1742a41",
+      "target_ref": "attack-pattern--497132f3-9146-5c0a-b0ce-33c38a8538d7"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--3cc1af37-c03c-5cf8-90a5-37f8f9d21b24",
+      "created": "2026-09-22T00:00:00.000Z",
+      "modified": "2026-09-22T00:00:00.000Z",
+      "created_by_ref": "identity--d9938b23-4e15-5d59-94ec-aaca6a31d550",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "relationship_type": "indicates",
+      "source_ref": "indicator--2e6a3e5c-2abe-5c59-bb0e-6edab1742a41",
+      "target_ref": "attack-pattern--50f44006-0871-597c-a7be-0c78c507e80a"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--80dc35cb-80f5-5585-b7d8-489d4e7d50d7",
+      "created": "2026-09-22T00:00:00.000Z",
+      "modified": "2026-09-22T00:00:00.000Z",
+      "created_by_ref": "identity--d9938b23-4e15-5d59-94ec-aaca6a31d550",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "relationship_type": "indicates",
+      "source_ref": "indicator--2e6a3e5c-2abe-5c59-bb0e-6edab1742a41",
+      "target_ref": "attack-pattern--4328b2be-f505-5081-aa64-bdc900ae653e"
+    },
+    {
+      "type": "report",
+      "spec_version": "2.1",
+      "id": "report--3b98c10b-4639-5dfe-a5d8-d95c0c6b30b0",
+      "created": "2026-09-22T00:00:00.000Z",
+      "modified": "2026-09-22T00:00:00.000Z",
+      "created_by_ref": "identity--d9938b23-4e15-5d59-94ec-aaca6a31d550",
+      "object_marking_refs": [
+        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+      ],
+      "name": "Phishing lure impersonating Touch 'n Go, from a QR code",
+      "published": "2026-09-22T00:00:00.000Z",
+      "report_types": [
+        "threat-report"
+      ],
+      "object_refs": [
+        "indicator--2e6a3e5c-2abe-5c59-bb0e-6edab1742a41",
+        "indicator--27c808b6-efbd-5847-bd13-1f6b77ba145e",
+        "attack-pattern--4328b2be-f505-5081-aa64-bdc900ae653e",
+        "attack-pattern--497132f3-9146-5c0a-b0ce-33c38a8538d7",
+        "attack-pattern--50f44006-0871-597c-a7be-0c78c507e80a"
+      ],
+      "external_references": [
+        {
+          "source_name": "FukuroCTI",
+          "url": "https://github.com/FukuroCTI/fukuro-reports/tree/main/reports/2026/09/2026-09-22_phish-touch-n-go-jkmss-a-sbs"
+        }
+      ]
+    }
+  ]
+}
