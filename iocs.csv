@@ -1,3 +1,5 @@
 type,value,first_seen,last_confirmed,expires,confidence,case
+domain,moneypocket.my-com.app,2026-09-23T00:00:00.000Z,2026-09-23T00:00:00.000Z,2026-12-22T00:00:00.000Z,85,"Phishing lure impersonating Touch 'n Go, from a QR code"
 domain,tng.jkmss-a.sbs,2026-09-22T00:00:00.000Z,2026-09-22T00:00:00.000Z,2026-12-21T00:00:00.000Z,85,"Phishing lure impersonating Touch 'n Go, from a QR code"
+url,https://moneypocket.my-com.app/link/,2026-09-23T00:00:00.000Z,2026-09-23T00:00:00.000Z,2026-10-23T00:00:00.000Z,85,"Phishing lure impersonating Touch 'n Go, from a QR code"
 url,https://tng.jkmss-a.sbs/Rayamacam2.my7/,2026-09-22T00:00:00.000Z,2026-09-22T00:00:00.000Z,2026-10-22T00:00:00.000Z,85,"Phishing lure impersonating Touch 'n Go, from a QR code"

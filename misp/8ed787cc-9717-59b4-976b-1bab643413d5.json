@@ -1,0 +1,52 @@
+{
+  "Event": {
+    "uuid": "8ed787cc-9717-59b4-976b-1bab643413d5",
+    "info": "Phishing lure impersonating Touch 'n Go, from a QR code",
+    "date": "2026-09-23",
+    "threat_level_id": "2",
+    "analysis": "2",
+    "published": true,
+    "publish_timestamp": "1790121600",
+    "timestamp": "1790121600",
+    "protected": false,
+    "extends_uuid": "",
+    "Orgc": {
+      "name": "FukuroCTI",
+      "uuid": "bf364d75-c3d3-578b-a3d1-d851af3f9a90"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "local": false,
+        "name": "tlp:clear",
+        "relationship_type": ""
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "6fb289e2-aa5b-582f-93ca-d30678b7f19b",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "moneypocket.my-com.app",
+        "comment": "Phishing lure impersonating Touch 'n Go, from a QR code",
+        "to_ids": true,
+        "disable_correlation": false,
+        "timestamp": "1790121600",
+        "first_seen": "2026-09-23T00:00:00+00:00",
+        "last_seen": "2026-09-23T00:00:00+00:00"
+      },
+      {
+        "uuid": "aafdad2e-acd7-5a2d-9eff-af5482273b81",
+        "type": "url",
+        "category": "Network activity",
+        "value": "https://moneypocket.my-com.app/link/",
+        "comment": "Phishing lure impersonating Touch 'n Go, from a QR code",
+        "to_ids": true,
+        "disable_correlation": false,
+        "timestamp": "1790121600",
+        "first_seen": "2026-09-23T00:00:00+00:00",
+        "last_seen": "2026-09-23T00:00:00+00:00"
+      }
+    ]
+  }
+}
