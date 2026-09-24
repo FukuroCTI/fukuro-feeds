@@ -1,0 +1,52 @@
+{
+  "Event": {
+    "uuid": "83b04d9b-c15b-597b-abe5-7e194fb3cac5",
+    "info": "Phishing lure impersonating Touch 'n Go, from a QR code",
+    "date": "2026-09-24",
+    "threat_level_id": "2",
+    "analysis": "2",
+    "published": true,
+    "publish_timestamp": "1790208000",
+    "timestamp": "1790208000",
+    "protected": false,
+    "extends_uuid": "",
+    "Orgc": {
+      "name": "FukuroCTI",
+      "uuid": "bf364d75-c3d3-578b-a3d1-d851af3f9a90"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "local": false,
+        "name": "tlp:clear",
+        "relationship_type": ""
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "9eba2a00-e11e-56c8-b971-38f5e5ed494b",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "qxxdaft.it.com",
+        "comment": "Phishing lure impersonating Touch 'n Go, from a QR code",
+        "to_ids": true,
+        "disable_correlation": false,
+        "timestamp": "1790208000",
+        "first_seen": "2026-09-24T00:00:00+00:00",
+        "last_seen": "2026-09-24T00:00:00+00:00"
+      },
+      {
+        "uuid": "dcccede4-2370-5723-bde8-f9b49f986585",
+        "type": "url",
+        "category": "Network activity",
+        "value": "https://qxxdaft.it.com/moneypacketmp",
+        "comment": "Phishing lure impersonating Touch 'n Go, from a QR code",
+        "to_ids": true,
+        "disable_correlation": false,
+        "timestamp": "1790208000",
+        "first_seen": "2026-09-24T00:00:00+00:00",
+        "last_seen": "2026-09-24T00:00:00+00:00"
+      }
+    ]
+  }
+}
