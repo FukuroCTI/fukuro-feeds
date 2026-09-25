@@ -55,5 +55,24 @@
     "analysis": 2,
     "threat_level_id": 2,
     "timestamp": 1790035200
+  },
+  "b0846472-d29c-52ef-915a-eadbafcf79ca": {
+    "Orgc": {
+      "name": "FukuroCTI",
+      "uuid": "bf364d75-c3d3-578b-a3d1-d851af3f9a90"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "local": false,
+        "name": "tlp:clear",
+        "relationship_type": ""
+      }
+    ],
+    "info": "Phishing lure impersonating Touch 'n Go, from a QR code",
+    "date": "2026-09-25",
+    "analysis": 2,
+    "threat_level_id": 2,
+    "timestamp": 1790294400
   }
 }
