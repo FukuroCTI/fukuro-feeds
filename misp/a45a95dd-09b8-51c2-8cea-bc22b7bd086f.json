@@ -1,8 +1,8 @@
 {
   "Event": {
-    "uuid": "83b04d9b-c15b-597b-abe5-7e194fb3cac5",
+    "uuid": "a45a95dd-09b8-51c2-8cea-bc22b7bd086f",
     "info": "Phishing lure impersonating Touch 'n Go, from a QR code",
-    "date": "2026-09-24",
+    "date": "2026-09-27",
     "threat_level_id": "2",
     "analysis": "2",
     "published": true,
@@ -24,7 +24,7 @@
     ],
     "Attribute": [
       {
-        "uuid": "9eba2a00-e11e-56c8-b971-38f5e5ed494b",
+        "uuid": "c52e2f4e-ccd6-5b9f-bfd5-0ae30e03dc7f",
         "type": "domain",
         "category": "Network activity",
         "value": "qxxdaft.it.com",
@@ -36,16 +36,16 @@
         "last_seen": "2026-09-27T00:00:00+00:00"
       },
       {
-        "uuid": "dcccede4-2370-5723-bde8-f9b49f986585",
+        "uuid": "18720720-d6c1-5d99-b4c9-4a2b9ad81443",
         "type": "url",
         "category": "Network activity",
-        "value": "https://qxxdaft.it.com/moneypacketmp",
+        "value": "https://qxxdaft.it.com/moneypockett",
         "comment": "Phishing lure impersonating Touch 'n Go, from a QR code",
         "to_ids": true,
         "disable_correlation": false,
-        "timestamp": "1790208000",
-        "first_seen": "2026-09-24T00:00:00+00:00",
-        "last_seen": "2026-09-24T00:00:00+00:00"
+        "timestamp": "1790467200",
+        "first_seen": "2026-09-27T00:00:00+00:00",
+        "last_seen": "2026-09-27T00:00:00+00:00"
       }
     ]
   }
