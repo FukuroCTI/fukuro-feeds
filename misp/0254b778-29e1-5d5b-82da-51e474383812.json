@@ -1,0 +1,64 @@
+{
+  "Event": {
+    "uuid": "0254b778-29e1-5d5b-82da-51e474383812",
+    "info": "Phishing lure impersonating Touch 'n Go, from a QR code",
+    "date": "2026-09-29",
+    "threat_level_id": "2",
+    "analysis": "2",
+    "published": true,
+    "publish_timestamp": "1790640000",
+    "timestamp": "1790640000",
+    "protected": false,
+    "extends_uuid": "",
+    "Orgc": {
+      "name": "FukuroCTI",
+      "uuid": "bf364d75-c3d3-578b-a3d1-d851af3f9a90"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "local": false,
+        "name": "tlp:clear",
+        "relationship_type": ""
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "c0e064b8-6f55-568e-be44-2782759c5654",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "tng5.mobilegrub20.my.id",
+        "comment": "Phishing lure impersonating Touch 'n Go, from a QR code",
+        "to_ids": true,
+        "disable_correlation": false,
+        "timestamp": "1790640000",
+        "first_seen": "2026-09-29T00:00:00+00:00",
+        "last_seen": "2026-09-29T00:00:00+00:00"
+      },
+      {
+        "uuid": "8197414c-753b-5994-814b-b675114f2dbc",
+        "type": "url",
+        "category": "Network activity",
+        "value": "https://tng5.mobilegrub20.my.id/",
+        "comment": "Phishing lure impersonating Touch 'n Go, from a QR code",
+        "to_ids": true,
+        "disable_correlation": false,
+        "timestamp": "1790640000",
+        "first_seen": "2026-09-29T00:00:00+00:00",
+        "last_seen": "2026-09-29T00:00:00+00:00"
+      },
+      {
+        "uuid": "0afd032d-c357-54ec-8fa8-c25bb2cb12dc",
+        "type": "url",
+        "category": "Network activity",
+        "value": "https://tng5.mobilegrub20.my.id/login.php",
+        "comment": "Phishing lure impersonating Touch 'n Go, from a QR code",
+        "to_ids": true,
+        "disable_correlation": false,
+        "timestamp": "1790640000",
+        "first_seen": "2026-09-29T00:00:00+00:00",
+        "last_seen": "2026-09-29T00:00:00+00:00"
+      }
+    ]
+  }
+}
