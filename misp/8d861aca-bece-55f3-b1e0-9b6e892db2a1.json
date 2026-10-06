@@ -1,0 +1,64 @@
+{
+  "Event": {
+    "uuid": "8d861aca-bece-55f3-b1e0-9b6e892db2a1",
+    "info": "Phishing lure impersonating Touch 'n Go",
+    "date": "2026-10-07",
+    "threat_level_id": "2",
+    "analysis": "2",
+    "published": true,
+    "publish_timestamp": "1791331200",
+    "timestamp": "1791331200",
+    "protected": false,
+    "extends_uuid": "",
+    "Orgc": {
+      "name": "FukuroCTI",
+      "uuid": "bf364d75-c3d3-578b-a3d1-d851af3f9a90"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "local": false,
+        "name": "tlp:clear",
+        "relationship_type": ""
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "018262ca-bcc0-55df-b835-46d6e8852d66",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "touchngomalay.site",
+        "comment": "Phishing lure impersonating Touch 'n Go",
+        "to_ids": true,
+        "disable_correlation": false,
+        "timestamp": "1791331200",
+        "first_seen": "2026-10-07T00:00:00+00:00",
+        "last_seen": "2026-10-07T00:00:00+00:00"
+      },
+      {
+        "uuid": "8b9aa4bb-6bd5-5650-90c4-dfacfc019d8b",
+        "type": "url",
+        "category": "Network activity",
+        "value": "https://touchngomalay.site/",
+        "comment": "Phishing lure impersonating Touch 'n Go",
+        "to_ids": true,
+        "disable_correlation": false,
+        "timestamp": "1791331200",
+        "first_seen": "2026-10-07T00:00:00+00:00",
+        "last_seen": "2026-10-07T00:00:00+00:00"
+      },
+      {
+        "uuid": "f25f716b-437b-53e6-a986-cb0cd8a1d184",
+        "type": "url",
+        "category": "Network activity",
+        "value": "https://touchngomalay.site/cdn-cgi/l/email-protection",
+        "comment": "Phishing lure impersonating Touch 'n Go",
+        "to_ids": true,
+        "disable_correlation": false,
+        "timestamp": "1791331200",
+        "first_seen": "2026-10-07T00:00:00+00:00",
+        "last_seen": "2026-10-07T00:00:00+00:00"
+      }
+    ]
+  }
+}
