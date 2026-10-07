@@ -1,6 +1,6 @@
 {
   "type": "bundle",
-  "id": "bundle--be0b7dbb-9479-5592-93e9-cf1910d79e60",
+  "id": "bundle--280c01c1-dc24-511e-b32c-6204e3db35cd",
   "objects": [
     {
       "type": "identity",
@@ -250,30 +250,6 @@
     {
       "type": "indicator",
       "spec_version": "2.1",
-      "id": "indicator--89d45935-150b-5892-80ea-d214127c1abb",
-      "created": "2026-10-07T00:00:00.000Z",
-      "modified": "2026-10-07T00:00:00.000Z",
-      "created_by_ref": "identity--d9938b23-4e15-5d59-94ec-aaca6a31d550",
-      "object_marking_refs": [
-        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
-      ],
-      "name": "domain: touchngomalay.site",
-      "description": "Phishing lure impersonating Touch 'n Go",
-      "indicator_types": [
-        "malicious-activity"
-      ],
-      "pattern": "[domain-name:value = 'touchngomalay.site']",
-      "pattern_type": "stix",
-      "valid_from": "2026-10-07T00:00:00.000Z",
-      "valid_until": "2027-01-05T00:00:00.000Z",
-      "confidence": 85,
-      "labels": [
-        "tlp:clear"
-      ]
-    },
-    {
-      "type": "indicator",
-      "spec_version": "2.1",
       "id": "indicator--d07ec591-b4c4-5c64-b118-8454d06a9864",
       "created": "2026-09-25T00:00:00.000Z",
       "modified": "2026-09-25T00:00:00.000Z",
@@ -467,56 +443,6 @@
       ]
     },
     {
-      "type": "indicator",
-      "spec_version": "2.1",
-      "id": "indicator--99f8cd06-24cf-5112-a8a7-5fcfddcfa25c",
-      "created": "2026-10-07T00:00:00.000Z",
-      "modified": "2026-10-07T00:00:00.000Z",
-      "created_by_ref": "identity--d9938b23-4e15-5d59-94ec-aaca6a31d550",
-      "object_marking_refs": [
-        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
-      ],
-      "name": "url: https://touchngomalay.site/",
-      "description": "Phishing lure impersonating Touch 'n Go",
-      "indicator_types": [
-        "malicious-activity"
-      ],
-      "pattern": "[url:value = 'https://touchngomalay.site/']",
-      "pattern_type": "stix",
-      "valid_from": "2026-10-07T00:00:00.000Z",
-      "valid_until": "2026-11-06T00:00:00.000Z",
-      "confidence": 85,
-      "labels": [
-        "tlp:clear",
-        "landing-page"
-      ]
-    },
-    {
-      "type": "indicator",
-      "spec_version": "2.1",
-      "id": "indicator--4dae3f84-e27e-588d-941f-57ade9b60995",
-      "created": "2026-10-07T00:00:00.000Z",
-      "modified": "2026-10-07T00:00:00.000Z",
-      "created_by_ref": "identity--d9938b23-4e15-5d59-94ec-aaca6a31d550",
-      "object_marking_refs": [
-        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
-      ],
-      "name": "url: https://touchngomalay.site/cdn-cgi/l/email-protection",
-      "description": "Phishing lure impersonating Touch 'n Go",
-      "indicator_types": [
-        "malicious-activity"
-      ],
-      "pattern": "[url:value = 'https://touchngomalay.site/cdn-cgi/l/email-protection']",
-      "pattern_type": "stix",
-      "valid_from": "2026-10-07T00:00:00.000Z",
-      "valid_until": "2026-11-06T00:00:00.000Z",
-      "confidence": 85,
-      "labels": [
-        "tlp:clear",
-        "landing-page"
-      ]
-    },
-    {
       "type": "relationship",
       "spec_version": "2.1",
       "id": "relationship--0b88ef69-5861-5c1a-8879-f45ff5446e93",
@@ -599,20 +525,6 @@
       "relationship_type": "indicates",
       "source_ref": "indicator--d8f6e5fd-a7e9-548b-ab70-0169c249b4d2",
       "target_ref": "attack-pattern--497132f3-9146-5c0a-b0ce-33c38a8538d7"
-    },
-    {
-      "type": "relationship",
-      "spec_version": "2.1",
-      "id": "relationship--41563dcf-df4c-52c9-9829-648e8cc11d61",
-      "created": "2026-10-07T00:00:00.000Z",
-      "modified": "2026-10-07T00:00:00.000Z",
-      "created_by_ref": "identity--d9938b23-4e15-5d59-94ec-aaca6a31d550",
-      "object_marking_refs": [
-        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
-      ],
-      "relationship_type": "indicates",
-      "source_ref": "indicator--89d45935-150b-5892-80ea-d214127c1abb",
-      "target_ref": "attack-pattern--50f44006-0871-597c-a7be-0c78c507e80a"
     },
     {
       "type": "relationship",
@@ -729,20 +641,6 @@
     {
       "type": "relationship",
       "spec_version": "2.1",
-      "id": "relationship--e1a91682-3619-5aac-8029-e88428040e3d",
-      "created": "2026-10-07T00:00:00.000Z",
-      "modified": "2026-10-07T00:00:00.000Z",
-      "created_by_ref": "identity--d9938b23-4e15-5d59-94ec-aaca6a31d550",
-      "object_marking_refs": [
-        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
-      ],
-      "relationship_type": "indicates",
-      "source_ref": "indicator--89d45935-150b-5892-80ea-d214127c1abb",
-      "target_ref": "attack-pattern--4328b2be-f505-5081-aa64-bdc900ae653e"
-    },
-    {
-      "type": "relationship",
-      "spec_version": "2.1",
       "id": "relationship--f59ca054-43ca-587a-a91c-765ae139fb95",
       "created": "2026-09-25T00:00:00.000Z",
       "modified": "2026-09-25T00:00:00.000Z",
@@ -753,35 +651,6 @@
       "relationship_type": "indicates",
       "source_ref": "indicator--d07ec591-b4c4-5c64-b118-8454d06a9864",
       "target_ref": "attack-pattern--497132f3-9146-5c0a-b0ce-33c38a8538d7"
-    },
-    {
-      "type": "report",
-      "spec_version": "2.1",
-      "id": "report--4c7dfafc-d0d2-56a0-b90b-4bb3decce251",
-      "created": "2026-10-07T00:00:00.000Z",
-      "modified": "2026-10-07T00:00:00.000Z",
-      "created_by_ref": "identity--d9938b23-4e15-5d59-94ec-aaca6a31d550",
-      "object_marking_refs": [
-        "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
-      ],
-      "name": "Phishing lure impersonating Touch 'n Go",
-      "published": "2026-10-07T00:00:00.000Z",
-      "report_types": [
-        "threat-report"
-      ],
-      "object_refs": [
-        "indicator--89d45935-150b-5892-80ea-d214127c1abb",
-        "indicator--99f8cd06-24cf-5112-a8a7-5fcfddcfa25c",
-        "indicator--4dae3f84-e27e-588d-941f-57ade9b60995",
-        "attack-pattern--4328b2be-f505-5081-aa64-bdc900ae653e",
-        "attack-pattern--50f44006-0871-597c-a7be-0c78c507e80a"
-      ],
-      "external_references": [
-        {
-          "source_name": "FukuroCTI",
-          "url": "https://github.com/FukuroCTI/fukuro-reports/tree/main/reports/2026/10/2026-10-07_phish-touch-n-go-touchngomalay-site"
-        }
-      ]
     },
     {
       "type": "report",
