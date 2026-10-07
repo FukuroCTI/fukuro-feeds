@@ -1,0 +1,52 @@
+{
+  "Event": {
+    "uuid": "c1cd58db-a490-5947-b445-80e82c2cab2f",
+    "info": "Phishing lure impersonating Touch 'n Go",
+    "date": "2026-10-08",
+    "threat_level_id": "2",
+    "analysis": "2",
+    "published": true,
+    "publish_timestamp": "1791417600",
+    "timestamp": "1791417600",
+    "protected": false,
+    "extends_uuid": "",
+    "Orgc": {
+      "name": "FukuroCTI",
+      "uuid": "bf364d75-c3d3-578b-a3d1-d851af3f9a90"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "local": false,
+        "name": "tlp:clear",
+        "relationship_type": ""
+      }
+    ],
+    "Attribute": [
+      {
+        "uuid": "d0da416d-fb0a-53b8-8cc6-e0f7167e84e3",
+        "type": "domain",
+        "category": "Network activity",
+        "value": "touchngomalay.site",
+        "comment": "Phishing lure impersonating Touch 'n Go",
+        "to_ids": true,
+        "disable_correlation": false,
+        "timestamp": "1791417600",
+        "first_seen": "2026-10-08T00:00:00+00:00",
+        "last_seen": "2026-10-08T00:00:00+00:00"
+      },
+      {
+        "uuid": "c699285d-e282-5cd0-b89a-31b366e11209",
+        "type": "url",
+        "category": "Network activity",
+        "value": "https://touchngomalay.site/",
+        "comment": "Phishing lure impersonating Touch 'n Go",
+        "to_ids": true,
+        "disable_correlation": false,
+        "timestamp": "1791417600",
+        "first_seen": "2026-10-08T00:00:00+00:00",
+        "last_seen": "2026-10-08T00:00:00+00:00"
+      }
+    ]
+  }
+}

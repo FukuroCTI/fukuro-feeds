@@ -112,5 +112,24 @@
     "analysis": 2,
     "threat_level_id": 2,
     "timestamp": 1790294400
+  },
+  "c1cd58db-a490-5947-b445-80e82c2cab2f": {
+    "Orgc": {
+      "name": "FukuroCTI",
+      "uuid": "bf364d75-c3d3-578b-a3d1-d851af3f9a90"
+    },
+    "Tag": [
+      {
+        "colour": "#ffffff",
+        "local": false,
+        "name": "tlp:clear",
+        "relationship_type": ""
+      }
+    ],
+    "info": "Phishing lure impersonating Touch 'n Go",
+    "date": "2026-10-08",
+    "analysis": 2,
+    "threat_level_id": 2,
+    "timestamp": 1791417600
   }
 }
